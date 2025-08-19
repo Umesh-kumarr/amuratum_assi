@@ -6,6 +6,7 @@ import settinglogo from '../assets/settinglogo.svg';
 import profile from '../assets/profile.svg';
 import msgicon from '../assets/msgicon.svg';
 import bellicon from '../assets/bellicon.svg';
+import reddot from '../assets/reddot.svg';
 
 const Topbar = () => {
   return (
@@ -34,16 +35,30 @@ const Topbar = () => {
 
         {/* Right: Profile + Settings */}
         <div className="flex items-center">
-          <div className='flex items-center gap-5 mr-6'>
-            <img src={msgicon} alt="logo" className="h-7 w-7 cursor-pointer" />
-            <img src={bellicon} alt="logo" className="w-6 h-6 cursor-pointer" />
+          <div className='flex items-center gap-2'>
+
+            <div className="relative w-10 h-10">
+              <img src={msgicon} alt="logo" className="absolute top-1 left-1 w-6 h-6 z-10 cursor-pointer"/>
+              <img src={reddot} alt="logo" className="absolute top-1 left-4 w-3 h-3 z-20"/>
+
+            </div>
+
+
+            <div className='relative w-10 h-10 mr-3'>
+              <img src={bellicon} alt="logo" className="absolute top-1 left-1 w-6 h-6 z-10 cursor-pointer " />
+              <img src={reddot} alt='logo' className='absolute top-1 left-4 w-3 h-3 z-20' />
+            </div>
+
           </div>
+
           <div className='flex flex-col items-end mr-2 '>
             <span className="font-semibold text-[#3A643B] mb-0.5">Dr.Liam Michael</span>
             <span className="font-semibold  text-xs text-[#3A643B] opacity-40">Docter</span>
           </div>
+
           <img src={profile} alt="profile" className="w-10 h-10 rounded-xl mr-5" />
           <img src={settinglogo} alt="settings" className="w-[26px] h-[26px] cursor-pointer" />
+
         </div>
       </div>
     </section>
