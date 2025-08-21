@@ -38,8 +38,8 @@ const Sidebar = () => {
               >
                 <div
                   className={`p-[10px] rounded-md transition-colors duration-200 ${active === item.name
-                      ? "bg-green-100"
-                      : "bg-[rgba(46,55,164,0.05)]"
+                    ? "bg-green-100"
+                    : "bg-[rgba(46,55,164,0.05)]"
                     }`}
                 >
                   <img
@@ -65,8 +65,8 @@ const Sidebar = () => {
               >
                 <div
                   className={`p-[10px] rounded-md ${active === "Wallet"
-                      ? "bg-green-100"
-                      : "bg-[rgba(46,55,164,0.05)]"
+                    ? "bg-green-100"
+                    : "bg-[rgba(46,55,164,0.05)]"
                     }`}
                 >
                   <img src={wallet} alt="wallet" className="w-5 h-5" />
@@ -106,8 +106,8 @@ const Sidebar = () => {
               >
                 <div
                   className={`p-[10px] rounded-md ${active === "Affiliate"
-                      ? "bg-green-100"
-                      : "bg-[rgba(46,55,164,0.05)]"
+                    ? "bg-green-100"
+                    : "bg-[rgba(46,55,164,0.05)]"
                     }`}
                 >
                   <img src={wallet} alt="affiliate" className="w-5 h-5" />
