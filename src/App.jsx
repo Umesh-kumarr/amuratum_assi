@@ -21,8 +21,8 @@ function App() {
           <div className="flex-1">
             <Routes>
               <Route path="/dashboard" element={<Dashboard />} />
-              <Route path="referraltool" element={<ReferralTool/>} />
-              <Route path="earninghistory" element={<EarningHistory/>} />
+              <Route path="/referraltool" element={<ReferralTool/>} />
+              <Route path="/earninghistory" element={<EarningHistory/>} />
             </Routes>
           </div>
         </div>
