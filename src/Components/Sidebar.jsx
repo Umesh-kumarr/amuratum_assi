@@ -134,14 +134,14 @@ const Sidebar = () => {
                 <ul className="ml-[68px] mt-3 flex flex-col gap-8 text-xs text-gray-600">
                   <li>
                     <Link
-                      to="/Dashboard"
+                      to="/dashboard"
                       className="hover:text-green-700 cursor-pointer"
                     >
                       Dashboard
                     </Link>
                   </li>
-                  <li><Link to="/ReferralTool" className="hover:text-green-700 cursor-pointer">Referral Tool</Link></li>
-                  <li><Link to="/EarningHistory" className="hover:text-green-700 cursor-pointer">Earning History</Link></li>
+                  <li><Link to="/referraltool" className="hover:text-green-700 cursor-pointer">Referral Tool</Link></li>
+                  <li><Link to="/earninghistory" className="hover:text-green-700 cursor-pointer">Earning History</Link></li>
                 </ul>
               )}
             </div>
