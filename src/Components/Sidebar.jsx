@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dashboard from '../assets/sidebar/dashboard.svg';
 import patients from '../assets/sidebar/patients.svg';
-import doctorSchedule from '../assets/sidebar/Doctorschedule.svg';
+import doctorschedule from '../assets/sidebar/Doctorschedule.svg';
 import appointments from '../assets/sidebar/appointments.svg';
 import chat from '../assets/sidebar/chat.svg';
 import consultation from '../assets/sidebar/consultation.svg';
@@ -17,7 +17,7 @@ const Sidebar = () => {
   const menuItems = [
     { name: "Dashboard", icon: dashboard },
     { name: "Patients", icon: patients },
-    { name: "DoctorSchedule", icon: doctorSchedule },
+    { name: "DoctorSchedule", icon: doctorschedule },
     { name: "Appointments", icon: appointments },
     { name: "Chat", icon: chat },
     { name: "Consultation", icon: consultation },
