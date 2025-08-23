@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import dashboard from '../assets/sidebar/dashboard.svg';
 import patients from '../assets/sidebar/patients.svg';
-import doctorschedule from '../assets/sidebar/Doctorschedule.svg';
+import doctorschedule from '../assets/sidebar/doctorschedule.svg';
 import appointments from '../assets/sidebar/appointments.svg';
 import chat from '../assets/sidebar/chat.svg';
 import consultation from '../assets/sidebar/consultation.svg';
